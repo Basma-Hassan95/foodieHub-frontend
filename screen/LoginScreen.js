@@ -4,14 +4,14 @@ import { useNavigation } from "@react-navigation/native";
 import { jwtDecode } from "jwt-decode";
 import { useContext, useEffect, useState } from "react";
 import {
-    Alert,
-    KeyboardAvoidingView,
-    Pressable,
-    SafeAreaView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View
+  Alert,
+  KeyboardAvoidingView,
+  Pressable,
+  SafeAreaView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View
 } from "react-native";
 import { UserType } from "../UserContext"; // Import UserContext
 ;
@@ -100,7 +100,7 @@ const LoginScreen = () => {
             <MaterialIcons
               name="email"
               size={24}
-              color="#2C3E50"
+              color="#E67E22"
               style={styles.icon}
             />
             <TextInput
@@ -115,7 +115,7 @@ const LoginScreen = () => {
             <AntDesign
               name="lock1"
               size={24}
-              color="#2C3E50"
+              color="#E67E22"
               style={styles.icon}
             />
             <TextInput
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
     marginTop: 12,
-    color: "#2C3E50",
+    color: "#E67E22",
     marginTop: 50,
 
   },
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
   loginButton: {
     marginTop: 80,
     width: 200,
-    backgroundColor: "#2C3E50",
+    backgroundColor: "#E67E22",
     borderRadius: 6,
     padding: 15,
     marginLeft: "auto",

@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-import { StyleSheet, View, Image, Text, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { useEffect } from 'react';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const SplashScreen = () => {
   const navigation = useNavigation();
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   tagline: {
     fontSize: 14,
-    color: '#2C3E50',
+    color: '#E67E22',
     marginTop: 10,
     fontStyle: 'italic',
   },

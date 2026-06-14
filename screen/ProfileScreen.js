@@ -257,7 +257,7 @@ import { UserType } from "../UserContext";
       marginTop: 2,
     },
     orderHistoryButton: {
-      backgroundColor: "#2C3E50",
+      backgroundColor: "#E67E22",
       marginHorizontal: 20,
       padding: 15,
       borderRadius: 10,

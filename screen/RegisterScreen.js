@@ -72,7 +72,7 @@ import {
                 fontSize: 20,
                 marginTop: 50,
                 fontWeight: "bold",
-                color: "#2C3E50",
+                color: "#E67E22",
               }}
             >
               Register to your Account
@@ -103,7 +103,7 @@ import {
                 style={{ marginLeft: 8 }}
                 name="email"
                 size={24}
-                color="#2C3E50"
+                color="#E67E22"
               />
               <TextInput
                 value={username}
@@ -133,7 +133,7 @@ import {
                 style={{ marginLeft: 8 }}
                 name="email"
                 size={24}
-                color="#2C3E50"
+                color="#E67E22"
               />
   
               <TextInput
@@ -165,7 +165,7 @@ import {
               <AntDesign
                 name="lock1"
                 size={24}
-                color="#2C3E50"
+                color="#E67E22"
                 style={{ marginLeft: 8 }}
               />
   
@@ -205,7 +205,7 @@ import {
             onPress={handleRegister}
             style={{
               width: 200,
-              backgroundColor: "#2C3E50",
+              backgroundColor: "#E67E22",
               // backgroundColor: "#E67E22",
               borderRadius: 6,
               marginLeft: "auto",
