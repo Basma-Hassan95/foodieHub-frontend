@@ -41,3 +41,14 @@ app-example
 # generated native folders
 /ios
 /android
+
+.env
+api/node_modules
+api/.env
+
+
+.claude
+AGENTS.md
+CLAUDE.md
+app-example
+api
